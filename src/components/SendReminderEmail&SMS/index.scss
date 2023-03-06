@@ -1,0 +1,59 @@
+.email-sms-section{
+    height: 100%;
+}
+.notification-block{
+    justify-content: space-between;
+    max-width: 260px;
+    margin: 0 auto;
+    font-size: 16px;
+    align-items: center;
+    padding-top:10px;
+    .notifiction-option{
+        display: -webkit-flex;
+        display: flex;
+        min-width: 120px;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+        padding: 5px 7px 8px;
+        font-family: "FrutigerNeueLTPro-Medium";
+        border-radius: 4px;
+        background: #fff;
+        cursor: pointer;
+        .icons{
+            font-size: 18px;
+            margin-right: 8px;
+            &.cui-speech{
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
+    .lable-new{
+        position: relative;
+        top: 4px;
+        cursor: pointer;
+    }
+    .custom-control-label::before{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .custom-control-label::after{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+.bell-block{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 3px dashed #9490a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 60px;
+    color: #9590a7;
+    background: #f7f7f7;
+}

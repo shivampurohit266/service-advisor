@@ -1,0 +1,24 @@
+.app-body{
+  overflow-x: initial;
+  .fc-toolbar.fc-header-toolbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 45px;
+    margin-bottom: 0px;
+    z-index: 10;
+    background: #f0f3f5;
+    padding-bottom: 15px;
+    padding-top: 5px;
+  }
+  .fc-head-container.fc-widget-header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 94px;
+    z-index: 100;
+    background: #fff;
+    box-shadow: 0 0 0 1px #ddd;
+  }
+  .custom-card-body.inventory-card{
+    padding-top: 0px;
+  }
+}

@@ -1,0 +1,139 @@
+.pdf-container {
+  width:550px;
+  margin:auto;
+}
+.invoice {
+	float:left;
+}
+.invoice-name
+{
+	font-size: 18px;
+}
+.invoice-date
+{
+	font-size: 12px;
+}
+.company-name
+{
+	float:right;
+    font-size: 16px;
+    font-weight:bold;
+}
+.user-details {
+	clear: both;
+    float: none;
+    border: 2px solid #f0f0f1;
+    padding: 6px 0px;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.width-50{
+	width: 50%;
+	float:left;
+}
+.user-details-left{
+	padding: 0px 6px;
+	border-right:2px solid #f0f0f1;
+}
+.user-details-right{
+	padding: 0px 10px;
+}
+.user-email{
+	font-size:13px;
+}
+.clearfix {
+	clear:both;
+	float:none;
+}
+.invoceTableDesign {
+	margin-bottom: 20px;
+}
+.invoceTableTitle{
+	background: #f0f0f1;
+	padding: 5px 7px;
+	color: #000;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.invoice-table {
+	border:1px solid #f0f0f1;
+	width: 100%;
+}
+.service-title{
+	width:250px;
+}
+.invoice-table th, .invoice-table td {
+    border: 1px solid #e7e7e7;
+    font-size: 13px;
+    color: #000;
+    padding: 4px;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: 500;
+    border-collapse: collapse;
+}
+.invoice-table tbody tr:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+.invoice-table td .parts-name{
+	font-size: 14px;
+	display: block;
+	padding-bottom: 2px;
+}
+.invoice-table td .note-text{
+	font-size: 12px;
+    color: #8a8a8a;
+}
+.total-amount
+{
+	background: #f0f0f1;
+    padding: 4px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+}
+.epa-price{
+	display:inline-block;
+	width: 100px;
+}
+.discount-price{
+	display:inline-block;
+	width: 115px;
+}
+.tax-price{
+	display:inline-block;
+	width: 90px;
+}
+.service-price{
+	display:inline-block;
+	text-align: right;
+	width: 220px;
+}
+.order-table{
+	width:300px;
+	border-collapse: collapse;
+	border: 2px solid #ddd;
+}
+.order-table tr td{
+	width: 150px;
+    padding: 1px 8px;
+    font-size: 14px;
+}
+.order-table tr.grand-total td
+{
+	font-size: 16px;
+    padding: 5px 8px;
+}
+.colon
+{
+	padding-right: 25px;
+}
+.border-bottom{
+	border-bottom:2px solid #f0f0f1;
+	padding-bottom:10px !important;
+}
+.plus-width{
+	width: 10px;
+    display: inline-block;
+}

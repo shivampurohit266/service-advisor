@@ -1,0 +1,54 @@
+.avtar-component{
+    background: #e2e4e6;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 550;
+    font-size: 25px;
+    display: inline-block;
+}
+.timer-display{
+    border-width: 2px solid;
+    box-shadow: 2px 3px 6px -4px #000;
+    font-family: "FrutigerNeueLTPro-Regular";
+    .isWorking{
+      border: 2px solid #089a0694;      
+    }
+    .timer-running-manually{
+        font-size: 40px;
+        color: #6b6b6b;
+    }
+    .task-area{
+        padding: 10px 0;
+        margin: 0;
+        width: 33.333%;
+        .text-day{
+          padding: 0;
+          margin: 0;
+          color: #76838F;
+          font-size: 12px;
+          font-weight: 300;
+        }
+    }
+    .technician-name{
+      font-family: "FrutigerNeueLTPro-Regular";
+    }
+}
+.time-clock-icon{
+  background: #7450e8;
+  border-radius: 100%;
+  color: #fff;
+  padding: 0px 10px 4px 6px;
+  position: relative;
+  font-size: 20px;
+  i{
+    position: relative;
+    top: 2px;
+    right: -2px;
+  } 
+}
+.hours-tracked{
+  font-size: 40px;
+}

@@ -1,0 +1,120 @@
+.subscription-head-line{
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "FrutigerNeueLTPro-Medium";
+}
+.subscription-card-wrap{
+    margin: 0 auto;
+}
+.pricing-page-main{
+  .subscription-card:nth-child(2) {
+    transform: scale(1.05)
+  }
+}
+.subscription-card{
+    padding: 10px 10px 20px;
+    min-width: 300px;
+    min-height: 300px;
+    box-shadow: 0 0 4px rgba(6, 6, 6, 0.23137254901960785);
+    font-family: "FrutigerNeueLTPro-Regular";
+    margin: 0 ;
+    background: #fff;
+    transition:  all ease 0.4s;
+    &.currentplan{
+      transform: scale(1.03)
+    }
+    &:hover{
+      transform: scale(1.04);
+      z-index: 1;
+      .btn{
+        background: linear-gradient(to bottom, #f6b42a, #df900c);
+        color: #fff;
+        border-color: #df900c;
+      }
+    }
+    .subscription-card-inner{
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+      margin-bottom: 20px;
+    }
+    h4{
+      font-family: "FrutigerNeueLTPro-Bold";
+      font-size: 24px;
+      padding: 15px 0 25px;
+      margin: 5px 60px 0px;
+      color: #1c1d20;
+      position: relative;
+      .plan-status{
+        font-size: 14px;
+        position: absolute;
+        bottom: 7px;
+        left: 0;
+        right: 0;
+        font-family: 'open sans';
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+    }
+    .plan-price{
+      color: #fba007;
+      padding-top: 10px;
+      .dollar-price{
+        font-size:45px;
+        .fa.dollar-icon{
+          font-size:45px;
+        }
+      }
+      small{
+        color: #bbb;
+      }
+    }
+    .user-count{
+      font-size: 18px;
+    }
+    .notes {
+      max-width: 77%;
+      text-align: center;
+      margin: 0 auto;
+      color: #a7a3a3;
+      line-height: 16px;
+    }
+    .btn{
+      padding: 10px 30px;
+      font-size: 16px;
+      color: #343539;
+      background-color: #fbfbfb;
+      border-color: rgba(104, 104, 104, 0.24);
+      border-radius: 4px;
+      font-family: 'FrutigerNeueLTPro-Bold';
+      &:hover{
+        background: linear-gradient(to bottom, #f6b42a, #df900c);
+        color: #fff;
+        border-color: #df900c;
+      }
+    }
+}
+.subscription-plan{
+  // min-height: 100px;
+  font-family: "FrutigerNeueLTPro-Regular";
+  // border: 1px solid #ddd;
+  // background: #fff;
+  h4{
+    font-size: 18px;
+  }
+  .plan-detail{
+    font-size: 16px;
+  }
+  b{
+     font-family: 'FrutigerNeueLTPro-Bold';
+  }
+  .plan-icon{
+    font-size: 64px;
+    color: #e9a007;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .expire-block{
+    font-size: 18px;
+  }
+}

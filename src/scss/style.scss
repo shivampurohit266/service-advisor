@@ -1,0 +1,125 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Temp fix for reactstrap
+@import "~@coreui/coreui/scss/_dropdown-menu-right.scss";
+
+// If you want to add something do it here
+@import "custom";
+
+// ie fixes
+@import "ie-fix";
+
+body {
+
+  .row.dashboard-container-row{
+    width: auto;
+  }
+  .dashboard-container {
+    &.dashboard-warp{
+      padding: 25px 10px 10px;
+      background: #f1f1f1;
+      margin-top: -10px;
+      font-family: "FrutigerNeueLTPro-Regular";
+      .card{
+        background: transparent;
+      }
+    }
+    .dashboard-block-container {
+    background: #fff;
+    box-shadow: 1px 1px 2px 0px #eae9e9;
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+      h3{
+        font-size: 21px;
+        text-align: left;
+      }
+    }
+    .chart-container {
+      min-height: 440px;
+      .chart-datepicker-container {
+        position: relative;
+
+        .DayPicker {
+          position: absolute;
+          left: -200px;
+          top: 40px;
+          z-index: 1;
+        }
+      }
+    }
+    .dashboard-card {
+      .main-card {
+        img {
+          max-width: 100%;
+          max-height: 62px;
+        }
+        hr {
+          padding: 0;
+          margin: 0;
+          margin-left: -12px;
+          margin-right: -12px;
+          display: block;
+        }
+        .anchor-container {
+          margin-top: 10px;
+          text-align: right;
+          a{
+            font-size: 12px;
+            display: inline-block;
+            padding: 5px 8px;
+            border-radius: 4px;
+            line-height: 100%;
+            color: #fff;
+            background: linear-gradient(to bottom, #f6b42a, #df900c);
+            color: #fff;
+            border-color: #df900c;
+            text-decoration: none;
+            &:hover{
+              background: linear-gradient(to bottom, #df900c, #f6b42a);
+              border-color: #df900c;
+              color: #fff;
+            }
+            .icons{
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+    .dashboard-plan-container {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      margin-top:-10px;
+      span {
+        font-weight: 500;
+      }
+      .image-container {
+        margin-right: 10px;
+        float: left;
+        padding-top: 4px;
+        img {
+          height: 35px;
+        }
+      }
+    }
+  }
+  .calendar-icon-container {
+    width: 35px;
+    float: right;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    img {
+      width: 20px;
+    }
+  }
+}

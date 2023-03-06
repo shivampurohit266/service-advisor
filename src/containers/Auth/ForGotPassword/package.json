@@ -1,0 +1,6 @@
+{
+  "name": "ForGotPassword",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ForGotPassword.js"
+}
